@@ -19,7 +19,6 @@ st.caption("Upload an image to detect tables. Input (left) → Output (right).")
 @st.cache_resource(show_spinner=False)
 def load_model(_):
     model = YOLO("best.pt")
-
     return YOLO(model)
 
 # Draw bounding boxes
