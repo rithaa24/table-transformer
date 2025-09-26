@@ -1,0 +1,7 @@
+path: C:\Users\shari\Desktop\Zoho\Table transformers\table bank
+train: C:\Users\shari\Desktop\Zoho\Table transformers\table bank\images\train
+val: C:\Users\shari\Desktop\Zoho\Table transformers\table bank\images\val
+test: C:\Users\shari\Desktop\Zoho\Table transformers\table bank\images\test
+
+nc: 1   # number of classes
+names: [table]  # class names
