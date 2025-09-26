@@ -18,8 +18,9 @@ st.caption("Upload an image to detect tables. Input (left) → Output (right).")
 # Load model once (hardcoded path)
 @st.cache_resource(show_spinner=False)
 def load_model(_):
-    path = "C:\\Users\\shari\\Desktop\\Zoho\\Table transformers\\table bank\\best.pt"
-    return YOLO(path)
+    model = YOLO("best.pt")
+
+    return YOLO(model)
 
 # Draw bounding boxes
 def draw_boxes(image_pil, boxes_xyxy, labels, color=(255, 0, 0), width=3):
