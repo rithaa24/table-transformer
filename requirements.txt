@@ -1,6 +1,25 @@
+# Core scientific libraries
+numpy>=1.26.0
+pandas>=2.1.0
+Pillow>=10.0.0
 
-ultralytics==8.0.0
-streamlit==1.0.0
-pandas==1.3.3
-numpy==1.21.2
-Pillow==10.0.0
+# Streamlit web app framework
+streamlit>=1.25.0
+
+# YOLO for object detection
+ultralytics>=8.0.0
+
+# Optional utilities for logging, markdown, and rich outputs
+rich>=14.1.0
+markdown-it-py>=2.2.0
+mdurl~=0.1
+pygments>=2.13.0
+
+# For table-transformer model handling
+torch>=2.1.0
+torchvision>=0.16.0
+tqdm>=4.66.0
+
+# Optional: image processing & visualization
+matplotlib>=3.8.0
+opencv-python>=4.8.0
